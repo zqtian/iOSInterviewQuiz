@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A282b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="MVVMViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="输入11位手机号码" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="dtK-oF-AtH">
+                                <rect key="frame" x="20" y="60" width="510" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numberPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sli-lm-mlh">
+                                <rect key="frame" x="219" y="130" width="51" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="省份" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2h-MF-GyB">
+                                <rect key="frame" x="236" y="159" width="34" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="城市" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whE-Fw-kF6">
+                                <rect key="frame" x="236" y="188" width="34" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="运营商" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pd8-DO-MJb">
+                                <rect key="frame" x="219" y="217" width="51" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="卡类型" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3G1-AX-T26">
+                                <rect key="frame" x="219" y="246" width="51" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1862706xxxx" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w2c-dE-CDJ">
+                                <rect key="frame" x="339" y="130" width="103" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="湖北" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U06-lK-OqO">
+                                <rect key="frame" x="373" y="159" width="34" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="武汉" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaK-AS-Fqn">
+                                <rect key="frame" x="373" y="188" width="34" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="联通" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IBl-vw-KRH">
+                                <rect key="frame" x="373" y="217" width="34" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4G" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pH-b8-hc1">
+                                <rect key="frame" x="379" y="246" width="23" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZG-FS-eI7">
+                                <rect key="frame" x="275" y="98" width="50" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机归属地查询" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fiw-tl-nyC">
+                                <rect key="frame" x="241" y="31" width="119" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A8q-Ed-eki">
+                                <rect key="frame" x="538" y="60" width="42" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Query"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="A8q-Ed-eki" firstAttribute="centerY" secondItem="dtK-oF-AtH" secondAttribute="centerY" id="0ca-8G-slv"/>
+                            <constraint firstItem="Sli-lm-mlh" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.9" id="1Yr-JV-s5x"/>
+                            <constraint firstItem="whE-Fw-kF6" firstAttribute="top" secondItem="O2h-MF-GyB" secondAttribute="bottom" constant="8" id="5OD-ap-wfd"/>
+                            <constraint firstItem="A8q-Ed-eki" firstAttribute="leading" secondItem="dtK-oF-AtH" secondAttribute="trailing" constant="8" id="D3b-WX-kP2"/>
+                            <constraint firstItem="WZG-FS-eI7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="E05-kq-OVG"/>
+                            <constraint firstItem="Sli-lm-mlh" firstAttribute="top" secondItem="dtK-oF-AtH" secondAttribute="bottom" constant="40" id="EQ6-Rp-v8I"/>
+                            <constraint firstItem="U06-lK-OqO" firstAttribute="centerX" secondItem="w2c-dE-CDJ" secondAttribute="centerX" id="Ed2-Cb-zJc"/>
+                            <constraint firstItem="w2c-dE-CDJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.3" id="HVK-tJ-ddV"/>
+                            <constraint firstItem="dtK-oF-AtH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="KVO-fA-wYt"/>
+                            <constraint firstItem="7pH-b8-hc1" firstAttribute="centerY" secondItem="3G1-AX-T26" secondAttribute="centerY" id="KZf-SO-KYR"/>
+                            <constraint firstItem="fiw-tl-nyC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="LQS-Mp-8ob"/>
+                            <constraint firstItem="IBl-vw-KRH" firstAttribute="centerX" secondItem="w2c-dE-CDJ" secondAttribute="centerX" id="MI6-S4-m51"/>
+                            <constraint firstItem="whE-Fw-kF6" firstAttribute="trailing" secondItem="Sli-lm-mlh" secondAttribute="trailing" id="PBm-at-mVb"/>
+                            <constraint firstItem="KaK-AS-Fqn" firstAttribute="centerY" secondItem="whE-Fw-kF6" secondAttribute="centerY" id="QI8-2X-XsY"/>
+                            <constraint firstItem="KaK-AS-Fqn" firstAttribute="centerX" secondItem="w2c-dE-CDJ" secondAttribute="centerX" id="SHd-nB-PAB"/>
+                            <constraint firstItem="3G1-AX-T26" firstAttribute="trailing" secondItem="Sli-lm-mlh" secondAttribute="trailing" id="aP6-Yj-G86"/>
+                            <constraint firstAttribute="trailing" secondItem="A8q-Ed-eki" secondAttribute="trailing" constant="20" id="au4-zC-qDK"/>
+                            <constraint firstItem="dtK-oF-AtH" firstAttribute="top" secondItem="fiw-tl-nyC" secondAttribute="bottom" constant="8" id="dWc-wn-vn9"/>
+                            <constraint firstItem="3G1-AX-T26" firstAttribute="top" secondItem="pd8-DO-MJb" secondAttribute="bottom" constant="8" id="dam-nJ-1BC"/>
+                            <constraint firstItem="O2h-MF-GyB" firstAttribute="top" secondItem="Sli-lm-mlh" secondAttribute="bottom" constant="8" id="gd6-T8-ITR"/>
+                            <constraint firstItem="dtK-oF-AtH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="hcT-aU-ZH0"/>
+                            <constraint firstItem="w2c-dE-CDJ" firstAttribute="centerY" secondItem="Sli-lm-mlh" secondAttribute="centerY" id="htd-17-7WX"/>
+                            <constraint firstItem="O2h-MF-GyB" firstAttribute="trailing" secondItem="Sli-lm-mlh" secondAttribute="trailing" id="iN3-ni-aIP"/>
+                            <constraint firstItem="pd8-DO-MJb" firstAttribute="trailing" secondItem="Sli-lm-mlh" secondAttribute="trailing" id="k2B-vV-WPa"/>
+                            <constraint firstItem="pd8-DO-MJb" firstAttribute="top" secondItem="whE-Fw-kF6" secondAttribute="bottom" constant="8" id="m3n-lf-tEZ"/>
+                            <constraint firstItem="U06-lK-OqO" firstAttribute="centerY" secondItem="O2h-MF-GyB" secondAttribute="centerY" id="oO1-8h-gNU"/>
+                            <constraint firstItem="IBl-vw-KRH" firstAttribute="centerY" secondItem="pd8-DO-MJb" secondAttribute="centerY" id="rQ4-CG-mEj"/>
+                            <constraint firstItem="7pH-b8-hc1" firstAttribute="centerX" secondItem="w2c-dE-CDJ" secondAttribute="centerX" id="vC1-v8-kFg"/>
+                            <constraint firstItem="WZG-FS-eI7" firstAttribute="top" secondItem="dtK-oF-AtH" secondAttribute="bottom" constant="8" id="yIi-dZ-XKW"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="carrierLabel" destination="IBl-vw-KRH" id="5qZ-2J-2bM"/>
+                        <outlet property="cityLabel" destination="KaK-AS-Fqn" id="6Ks-mm-ahW"/>
+                        <outlet property="phoneNumInputTextField" destination="dtK-oF-AtH" id="BH9-qY-Caz"/>
+                        <outlet property="phoneNumberLabel" destination="w2c-dE-CDJ" id="6c8-wM-RUz"/>
+                        <outlet property="provinceLabel" destination="U06-lK-OqO" id="xGX-SC-QWN"/>
+                        <outlet property="queryButton" destination="A8q-Ed-eki" id="A1w-Xz-fxY"/>
+                        <outlet property="queryStatusLabel" destination="WZG-FS-eI7" id="YeK-uH-DyV"/>
+                        <outlet property="simSuitLabel" destination="7pH-b8-hc1" id="jy6-Dv-bkY"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2216" y="438"/>
+        </scene>
+    </scenes>
+</document>
